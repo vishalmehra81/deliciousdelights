@@ -1,0 +1,32 @@
+header {
+    background-color:Black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+     display: flex;
+     align-items: center;
+}
+header * {
+    display: inline;
+}
+header img {
+  height: 80px;
+margin-left: 40px;
+}
+header li {
+    margin: 20px;
+}
+
+.navLink {
+    display: inline;
+    
+}
+
+h1 {
+    font-family: Monaco;
+    color: rgb(89, 11, 134);
+}
+
+

@@ -1,10 +1,10 @@
 import React from 'react';
 
+
 const NavBar = (props) => {
     return (
         <header>
-        <img src="/images/1.png" alt="Banner"/>
-
+        <h1>Delicious Delights</h1>
         <p>Call Us: 9987770013</p>
         <button>SIGN IN</button>
 
@@ -13,7 +13,7 @@ const NavBar = (props) => {
           <a href="/">HOME</a>
         </li>
         <li className="navLink">
-          <a href="/" >MENU</a>
+          <a href="/api/orders" >MENU</a>
         </li>
         <li className="navLink">
         <a href="/" >ABOUT US</a>
@@ -31,6 +31,8 @@ const NavBar = (props) => {
         <a href="/" >ORDER NOW</a>
         </li>
         </ul>
+
+        <img src="/images/1.png" alt="Banner"/>
         </header>  
     )
 }
