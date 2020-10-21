@@ -1,39 +1,56 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 
 
 const NavBar = (props) => {
     return (
-        <header>
-        <h1>Delicious Delights</h1>
-        <p>Call Us: 9987770013</p>
-        <button>SIGN IN</button>
+      <Fragment>
+            <header>
+            <img src="/images/logo.png" alt="logo"/>
+            
+            <ul>
+            <li className="navLink">
+              <a href="/">HOME</a>
+            </li>
+            <li className="navLink">
+              <a href="/menu" >MENU</a>
+            </li>
+            <li className="navLink">
+            <a href="/" >ABOUT US</a>
+            </li>
+            <li className="navLink">
+            <a href="/" >CONCEPT</a>
+            </li>
+            <li className="navLink">
+            <a href="/" >CATERING</a>
+            </li>
+            <li className="navLink">
+            <a href="/" >CONTACT US</a>
+            </li>
+            <li className="navLink">
+            <a href="/" >ORDER NOW</a>
+            </li>
+            </ul>
 
-        <ul>
-        <li className="navLink">
-          <a href="/">HOME</a>
-        </li>
-        <li className="navLink">
-          <a href="/api/orders" >MENU</a>
-        </li>
-        <li className="navLink">
-        <a href="/" >ABOUT US</a>
-        </li>
-        <li className="navLink">
-        <a href="/" >CONCEPT</a>
-        </li>
-        <li className="navLink">
-        <a href="/" >CATERING</a>
-        </li>
-        <li className="navLink">
-        <a href="/" >CONTACT US</a>
-        </li>
-        <li className="navLink">
-        <a href="/" >ORDER NOW</a>
-        </li>
-        </ul>
+            <p>Call Us: xxxxxx0013</p>
+            <button className="signIn">SIGN IN</button>
 
-        <img src="/images/1.png" alt="Banner"/>
-        </header>  
+            </header>
+
+            <body>
+            <img src="/images/2.png" alt="Banner"/>
+            </body>
+            <footer>
+              <a href="/">Press Release</a> 
+              <br/>
+              <a href="/">Terms & Conditions</a>
+              <br/>
+              <p> © 2020, All rights reserved - ABC Private Limited.</p>
+
+
+
+
+            </footer>
+        </Fragment>
     )
 }
 

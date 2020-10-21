@@ -13,7 +13,7 @@ class OrderContainer extends Component {
 
   componentDidMount(){
     const request = new Request();
-    request.get('/api/orders')
+    request.get('api/orders')
     .then(data => this.setState({orders: data}))
   }
 
@@ -23,7 +23,7 @@ class OrderContainer extends Component {
         <Fragment>
           <Switch>
             {/* use render only when necessary to pass the props to component */}
-            <Route render={() => {
+            <Route render={(props) => {
               return<OrderList orders = {this.state.orders} />              
             }}/>
           </Switch>

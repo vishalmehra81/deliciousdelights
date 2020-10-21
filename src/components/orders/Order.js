@@ -7,9 +7,7 @@ const Order = ({order}) => {
   }
   return (
     <Fragment>
-    <p>
-    Item: {order.items}
-    </p>
+    <p>Item: {order.items}</p>
     <p>Meal: {order.meals}</p>
     <p>Price: {order.price}</p>
     <p>Quantity: {order.quantity}</p>
