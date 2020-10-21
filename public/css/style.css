@@ -20,6 +20,7 @@
   
   .navLink {
       display: inline;
+      font-style: bold;
   }
   
   body {
@@ -83,3 +84,13 @@
     border-left: 1px solid #CCCCCC;
   }
 
+  header > p {
+
+    margin: 90px;
+  }
+
+  header > button {
+    float: right;
+    background: black;
+    color: white;
+  }

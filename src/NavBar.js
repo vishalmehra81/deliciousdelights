@@ -31,7 +31,8 @@ const NavBar = (props) => {
             </li>
             </ul>
 
-            <p>Call Us: xxxxxx0013</p>
+            <p>Call Us: xxxxxx0013</p><br/>
+           
             <button className="signIn">SIGN IN</button>
 
             </header>
