@@ -1,9 +1,9 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 
 
 const NavBar = (props) => {
     return (
-      <Fragment>
+      <div>
             <header>
             <img src="/images/logo.png" alt="logo"/>
             
@@ -15,19 +15,19 @@ const NavBar = (props) => {
               <a href="/menu" >MENU</a>
             </li>
             <li className="navLink">
-            <a href="/" >ABOUT US</a>
+            <a href="/welcome/aboutUs" >ABOUT US</a>
             </li>
             <li className="navLink">
-            <a href="/" >CONCEPT</a>
+            <a href="/welcome/concept" >CONCEPT</a>
             </li>
             <li className="navLink">
-            <a href="/" >CATERING</a>
+            <a href="/welcome/catering" >CATERING</a>
             </li>
             <li className="navLink">
-            <a href="/" >CONTACT US</a>
+            <a href="/welcome/contactUs" >CONTACT US</a>
             </li>
             <li className="navLink">
-            <a href="/" >ORDER NOW</a>
+            <a href="/orderNow" >ORDER NOW</a>
             </li>
             </ul>
 
@@ -45,12 +45,8 @@ const NavBar = (props) => {
               <a href="/">Terms & Conditions</a>
               <br/>
               <p> © 2020, All rights reserved - ABC Private Limited.</p>
-
-
-
-
             </footer>
-        </Fragment>
+        </div>
     )
 }
 

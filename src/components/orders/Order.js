@@ -7,11 +7,13 @@ const Order = ({order}) => {
   }
   return (
     <Fragment>
-    <p>Item: {order.items}</p>
-    <p>Meal: {order.meals}</p>
+    <p>Date: {order.date}</p>
+    <p>Items: {order.items}</p>
+    <p>Meals: {order.meals}</p>
+    <p>Order Id: {order.orderId}</p>
     <p>Price: {order.price}</p>
     <p>Quantity: {order.quantity}</p>
-    <p>SubTotal: {order.subTotal}</p>
+    <p>Sub total: {order.subtotal}</p>
     </Fragment>
   )
 }

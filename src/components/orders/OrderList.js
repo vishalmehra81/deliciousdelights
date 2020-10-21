@@ -4,7 +4,7 @@ import Order from './Order.js';
 
 const OrderList = (props) => {
 
-	if (props.orders.length === 0){
+	if (!props.orders||props.orders.length === 0){
 		return <p>Loading...</p>
 	}
 
